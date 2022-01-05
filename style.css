@@ -6,6 +6,10 @@ body{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+.sec-two{
+    display: flex;
 }
 .sec-one-left {
     width: 100%;
@@ -15,25 +19,32 @@ body{
 .sec-one-left h1{
     font-size: 50px;
 }
-.sec-one-left h2 {
+.sec-one-left h2,
+.sec-two-right h2 {
     font-size: 40px;
 }
 .sec-one-left h2 span{
     color: orange;
 }
-.sec-one-left h4 {
+.sec-one-left h4,
+.sec-two-right h4{
     font-size: 20px;
 }
-.sec-one-left p {
+.sec-one-left p,
+.sec-two-right p {
     font-size: 18px;
     color: darkolivegreen;
+    text-align: justify;
+    padding-right: 50px;
 }
-.sec-one-left a {
+.sec-one-left a,
+.sec-two-right a {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     font-size: 20px;
     padding: 10px;
     border-radius: 5px;
+    margin-top: 10px;
 }
 .sec-one-right {
     width: 108%;
@@ -41,9 +52,69 @@ body{
     background-repeat: no-repeat;
     background-size: 80%;
 }
-.sec-one-right img {
+.sec-two-right {
+    width: 108%;
+    background-image: url("images/dream-bg.png");
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.sec-two-left {
+    width: 108%;
+    background-image: url("images/my-bg2.png");
+    background-repeat: no-repeat;
+    background-size: 83%;
+}
+.sec-one-right img{
     height: 80%;
     border-radius: 50%;
     margin-left: 75px;
     margin-top: 45px;
+}
+.sec-two-left img {
+    height: 70%;
+    border-radius: 50%;
+    margin-left: 105px;
+    margin-top: 97px;
+    background-position: right;
+}
+.exp {
+    font-size: 50px;
+    margin-top: 70px;
+}
+.experience-sec {
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp-con {
+    margin: 70px;
+    padding: 60px;
+}
+.exp-con h1 {
+    color: brown;
+    font-size: 30px;
+}
+.exp-con h5 {
+    color: currentcolor;
+    font-size: 18px;
+}
+.exp-con p {
+    color: darkolivegreen;
+    font-size: 16px;
+    text-align: justify;
+}
+#exp-one {
+    border-left: 5px solid green;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#exp-two{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-left: 5px solid blue;
+}
+footer p {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 5px;
 }
